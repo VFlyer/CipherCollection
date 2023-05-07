@@ -22,7 +22,7 @@ public class cipherMachine : MonoBehaviour
         new AutokeyCipher(invert: false), new AutokeyCipher(invert: true),
         new BazeriesCipher(invert: false), new BazeriesCipher(invert: true),
         new BellasoCipher(),
-        new BijectivelyBasedBinaryManipulation(invert: true),
+        new BijectivelyBasedBinaryManipulation(invert: true), new BijectivelyBasedBinaryManipulation(invert: false),
         new BinaryCipher(),
         new BinaryGearCipher(invert: false), new BinaryGearCipher(invert: true),
         new BitSwitchCipher(invert: false), new BitSwitchCipher(invert: true),

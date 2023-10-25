@@ -630,6 +630,10 @@ public class cipherMachine : MonoBehaviour
                     keyboard[getPositionFromChar((char) ('A' + ltr))].OnInteract();
             if (Input.GetKeyDown(KeyCode.Return))
                 submit.OnInteract();
+            if (Input.GetKeyDown(KeyCode.LeftArrow))
+                leftArrow.OnInteract();
+            if (Input.GetKeyDown(KeyCode.RightArrow))
+                rightArrow.OnInteract();
         }
     }
 }
